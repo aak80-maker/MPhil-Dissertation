@@ -1,3 +1,15 @@
+# Original data
+
+This folder contains the original datasets used in the dissertation.
+
+## Included
+
+- GHS SMOD R2023A (UC and DUC) - distance to nearest city and town 
+- GLOPOP regional statistics - wealth/income
+- ID-RECCO - REDD+ features
+
+## Not included
+
 The GDL shapefiles are not included in this repository because the size of the dataset exceeds GitHub's file size limits.
 
 The dataset can be downloaded from the Global Data Lab website: 
