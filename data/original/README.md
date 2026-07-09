@@ -7,6 +7,7 @@ This folder contains the original datasets used in the dissertation.
 - GHS SMOD R2023A (UC and DUC) - distance to nearest city and town 
 - GLOPOP regional statistics - wealth/income
 - ID-RECCO - REDD+ features
+- Tang et al. (2025) paper and Supplementary Materials - outcome variable measure of additionality
 
 ## Not included
 
