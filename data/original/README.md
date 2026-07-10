@@ -16,6 +16,12 @@ The following datasets are included in this repository:
 
 Some datasets are not included because they were extracted directly from R packages or because of file size limitations. 
 
+### Verra Registry
+
+Project features for 5/52 projects were manually coded with information from project documents taken from the Verra Registry.
+
+These documents for the projects 2558, 2566, 2723, 2502, 2510-1 can be accessed : https://registry.verra.org/app/search/VCS
+
 ### OpenStreetMap
 
 Road and waterway datasets were retrieved in April 2026 using the `osmdata` R package. These data are publicly available through OpenStreetMap.
