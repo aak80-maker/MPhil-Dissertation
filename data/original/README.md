@@ -20,7 +20,7 @@ Some datasets are not included because they were extracted directly from R packa
 
 Project features for 5/52 projects were manually coded with information from project documents taken from the Verra Registry.
 
-These documents for the projects 2558, 2566, 2723, 2502, 2510-1 can be accessed : https://registry.verra.org/app/search/VCS
+These documents for the projects 2558, 2566, 2723, 2502, 2510-1 can be accessed here: https://registry.verra.org/app/search/VCS
 
 ### OpenStreetMap
 
