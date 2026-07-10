@@ -9,9 +9,9 @@ This repository contains the data and code used for my MPhil dissertation at the
 code/
     Coding Y and X Variables.R
     Coding More X Variables.R
+    Extra_Data_Preparation.R
     GLOPOP Data.R
-    Data_Cleaning.R
-    Main_Code.R
+    Main_Analysis.R
 
 data/
     original/
