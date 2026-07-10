@@ -34,7 +34,7 @@ The scripts are intended to be run in the following order:
    - Assigns projects to Global Data Lab (GDL) regions using spatial joins and merges regional wealth and income indicators from GLOPOP.
 
 4. **Data_Cleaning.R**
-   - Performs final data preparation, including variable recoding, creation of derived variables (e.g. area-normalised deforestation), and produces the final analysis-ready dataset.
+   - Performs some more data preparation, including variable recoding, creation of derived variables (e.g. area-normalised deforestation), and produces the final analysis-ready dataset.
 
 5. **Main_Code.R**
    - Contains the statistical analyses reported in the dissertation, including exploratory analyses, regression models, variable selection procedures, robustness checks, model diagnostics, interaction analyses, and exploratory multivariate analyses.
@@ -63,55 +63,15 @@ Contains the final analysis-ready dataset used in `Main_Code.R`.
 
 ---
 
-## Workflow
-
-The overall workflow is:
-
-```
-Original data
-        ↓
-Coding Y and X Variables.R
-        ↓
-Coding More X Variables.R
-        ↓
-GLOPOP Data.R
-        ↓
-Data_Cleaning.R
-        ↓
-Processed Data Master File.csv
-        ↓
-Main_Code.R
-```
-
----
-
 ## Notes
 
-This repository reflects the final workflow used to produce the analyses presented in the dissertation.
+This repository tries to reflect the workflow used to produce the analyses presented in the dissertation.
 
-The research developed iteratively over time, and some intermediate datasets were updated or overwritten as coding decisions evolved. Rather than preserving every exploratory version, this repository contains the principal data-processing steps and the final analytical workflow used to generate the reported results.
+My research developed iteratively over time, and some intermediate datasets were updated or overwritten as coding decisions evolved. As a result, this repository focuses on the main data-processing and analysis steps used to generate the reported results. Importantly, it aims to provide transparency into the primary data used and how it was processed; to outline the code used to process the data and run the analysis; and importantly, to supplement the dissertation paper itself.
 
-The code has been organised to maximise clarity and reproducibility while remaining faithful to the workflow used during the research process.
+I have done my best to organise the code and data in a clear and reproducible way. If anything is unclear, or if you think something is missing, please don't hesitate to get in touch and I'd be happy to provide clarification or any additional files where possible!
 
----
-
-## Software
-
-The analyses were conducted in **R** using packages including:
-
-- tidyverse
-- sf
-- glmnet
-- car
-- lmtest
-- sandwich
-- FactoMineR
-- factoextra
-- ggplot2
-- dunn.test
-
----
 
 ## Contact
 
-If you have any questions regarding the repository, data preparation, or analysis, please feel free to contact me.
+If you have any questions or require more information, please feel free to contact me!
