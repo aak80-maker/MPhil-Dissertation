@@ -1,3 +1,6 @@
+#This file contains some consolidated data preparation that occured during the analysis process. 
+#Lots of data preparation can also be found in Main_Analysis
+
 library(tidyverse)
 
 # clean and prepare the analyis dataset
