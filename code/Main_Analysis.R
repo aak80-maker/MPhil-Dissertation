@@ -176,7 +176,8 @@ model_dist_wealth_town_int <- lm(diff_annual_norm ~ dist_urban_new_km * wealth_i
                                     driver_local_livelihoods + 
                                     relevel(as.factor(Country_group), ref = "Brazil"),
                                   data = data)
-summary(model_dist_wealth_town_int)
+summary(model_dist_wealth_town_int) #holds up under normal standard errors
+coeftest(model_dist_wealth_town_int, vcov = vcovHC(model_dist_wealth_town_int, type = "HC3")) #holds up under HC3
 
 #let plot to see 
 # Create distance sequence
@@ -624,7 +625,8 @@ model_cash_factor_wealth_int <- lm(diff_annual_norm ~ direct_cash_factor * wealt
                                  ea_agriculture + ea_fishing + ea_tree_planting
                                +relevel(as.factor(Country_group), ref = "Brazil"),
                                data = data)
-summary(model_cash_factor_wealth_int)
+summary(model_cash_factor_wealth_int) #holds up under normal standard errors
+coeftest(model_cash_factor_wealth_int, vcov = vcovHC(model_cash_factor_wealth_int, type = "HC3")) #doesn't hold up under conservative HC3
 
 #lets re-plot with direct_cash as a factor and diff_annual_norm
 
